@@ -6,14 +6,12 @@ a {
 }
 
 /*********************************/
-/* Header and Navigation Styling */
+/* Header Styling */
 /*********************************/
 
 header {
-  border-bottom-style: solid;
-  padding-bottom: 20px;
-  margin-bottom: 50px;
-  min-width: 900px;
+  margin-bottom: 0.2em;
+  min-width: 600px;
 }
 
 h1.header {
@@ -21,41 +19,12 @@ h1.header {
 }
 
 a:link.header, a:visited.header, a:hover.header {
-  margin: 10px auto;
+  color: #181818;
   font-family: 'Oswald', sans-serif;
-  font-size: 600%;
-  text-transform: uppercase;
+  font-size: 300%;
+  margin: 0.1em auto;
   text-decoration: none;
-  color: #000000;
-}
-
-a:link.nav, a:visited.nav {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 150%;
-  text-decoration: none;
-  color: #000000;
-  padding: 10px 10px;
   text-transform: uppercase;
-}
-
-a:hover.nav {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 150%;
-  text-decoration: none;
-  color: #000000;
-  background-color: #dedede;
-  padding: 10px 10px;
-  text-transform: uppercase;
-}
-
-li.nav {
-  display: inline;
-  margin: 0px 30px;
-}
-
-ul.nav {
-  margin: 10px auto 10px auto;
-  text-align: center;
 }
 
 /****************/
@@ -65,9 +34,13 @@ ul.nav {
 .bodyTitle {
   font-family: 'Oswald', sans-serif;
   font-size: 300%;
-  margin: 5px auto 5px auto;
+  margin: 1.4em auto 0.4em auto;
   text-align: center;
   width: 900px;
+}
+
+.bodyTitle:first-child {
+  margin: 0.4em auto 0.4em auto;
 }
 
 .bodySubtitle {
@@ -79,108 +52,113 @@ ul.nav {
 }
 
 a:link.bodyTitleLink, a:visited.bodyTitleLink {
+  color: #181818;
   font-family: 'Oswald', sans-serif;
   font-size: 150%;
   margin: 0px auto 0px auto;
   text-align: center;
   width: 900px;
-  color: #000000;
 }
 
 a:hover.bodyTitleLink {
+  color: #8c8c8c;
   font-family: 'Oswald', sans-serif;
   font-size: 150%;
   margin: 0px auto 0px auto;
   text-align: center;
   width: 900px;
-  color: #8c8c8c;
 }
 
 .portfolioImage {
-  margin-top: 0px;
   margin-bottom: 50px;
+  margin-top: 0px;
 }
 
 .content {
-  text-align: center;
-  overflow: auto;
+  color: #181818;
   height: 100%;
+  margin: auto auto;
+  overflow: auto;
+  text-align: center;
   width: 900px;
+}
+
+.download {
   margin: auto auto;
 }
 
 .image1 {
   float: left;
-  width: 250px;
   margin: 10px 25px 10px 25px;
+  width: 250px;
 }
 
 .image2 {
   float: left;
-  width: 550px;
   margin: 10px 25px 10px 25px;
+  width: 550px;
 }
 
 .image3 {
   float: left;
-  width: 850px;
   margin: 10px 25px 10px 25px;
+  width: 850px;
 }
 
 .imagePortfolioMiddle {
   float: left;
-  width: 640px;
   margin: 10px 130px 10px 130px;
+  width: 640px;
 }
 
 .imageHalf {
   float: left;
-  width: 400px;
   margin: 10px 25px 10px 25px;
+  width: 400px;
 }
 
 .bodyText1 {
   float: left;
   font-family: 'Open Sans', sans-serif;
+  margin: 10px 25px 10px 25px;
   text-align: justify;
   width: 250px;
-  margin: 10px 25px 10px 25px;
 }
 
 .bodyText2 {
   float: left;
   font-family: 'Open Sans', sans-serif;
+  margin: 10px 25px 10px 25px;
   text-align: justify;
   width: 550px;
-  margin: 10px 25px 10px 25px;
 }
 
 .bodyText3 {
   float: left;
   font-family: 'Open Sans', sans-serif;
+  margin: 10px 25px 10px 25px;
   text-align: justify;
   width: 850px;
-  margin: 10px 25px 10px 25px;
 }
 
 .bodyTextHalf {
   float: left;
   font-family: 'Open Sans', sans-serif;
+  margin: 10px 25px 10px 25px;
   text-align: justify;
   width: 400px;
-  margin: 10px 25px 10px 25px;
 }
 
 .bodyTextCenter {
   float: left;
   font-family: 'Open Sans', sans-serif;
+  margin: 10px 25px 10px 25px;
   text-align: center;
   width: 850px;
-  margin: 10px 25px 10px 25px;
 }
 
 a:link.bodyLink, a:visited.bodyLink {
-  color: #000000;
+  color: #181818;
 }
 
 a:hover.bodyLink {
@@ -193,11 +171,10 @@ li.bodyList {
 }
 
 ul.bodyList {
-  margin: 10px auto 10px auto;
-  text-align: center;
   list-style-type: none;
+  margin: 10px auto 10px auto;
   padding: 0px;
-  margin: 0px;
+  text-align: center;
 }
 
 /******************/
@@ -206,7 +183,9 @@ ul.bodyList {
 
 footer {
   font-family: 'Open Sans', sans-serif;
-  border-top: solid;
-  padding-top: 20px;
-  margin-top: 50px;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  min-width: 600px;
+  padding-top: 2em;
+  text-align: center;
 }
