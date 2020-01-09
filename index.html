@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>J. M. Stark</title>
+    <link href="mainStyle.css" type="text/css" rel="stylesheet" />
+    <style>
+      @keyframes animatedBackground {
+      	from {
+          background-position: 0px 0px;
+        }
+      	to {
+          background-position: 1920px 0px;
+        }
+      }
+
+      #frontImage {
+        background-image: url("images/frontImage.jpg");
+        background-position: 0px 0px;
+        background-repeat: repeat-x;
+        height: 1080px;
+        width: 100%;
+
+        animation: animatedBackground 70s linear infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="header"><a class="header" href="index.html">J. M. Stark</a></h1>
+      <ul class="nav">
+        <li class="nav"><a class="nav" href="JMSPabout.html">About</a></li>
+        <li class="nav"><a class="nav" href="JMSPportfolio.html">Portfolio</a></li>
+        <li class="nav"><a class="nav" href="JMSPblog.html">Blog</a></li>
+        <li class="nav"><a class="nav" href="JMSPcontact.html">Contact</a></li>
+      </ul>
+    </header>
+    <div id="frontImage"></div>
+    <footer>
+      &copy 2020 J. M. Stark, All Rights Reserved
+    </footer>
+  </body>
+</html>

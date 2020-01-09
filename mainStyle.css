@@ -1,0 +1,212 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+a {
+  outline: 0;
+}
+
+/*********************************/
+/* Header and Navigation Styling */
+/*********************************/
+
+header {
+  border-bottom-style: solid;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  min-width: 900px;
+}
+
+h1.header {
+  text-align: center;
+}
+
+a:link.header, a:visited.header, a:hover.header {
+  margin: 10px auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 600%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+a:link.nav, a:visited.nav {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 150%;
+  text-decoration: none;
+  color: #000000;
+  padding: 10px 10px;
+  text-transform: uppercase;
+}
+
+a:hover.nav {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 150%;
+  text-decoration: none;
+  color: #000000;
+  background-color: #dedede;
+  padding: 10px 10px;
+  text-transform: uppercase;
+}
+
+li.nav {
+  display: inline;
+  margin: 0px 30px;
+}
+
+ul.nav {
+  margin: 10px auto 10px auto;
+  text-align: center;
+}
+
+/****************/
+/* Body Styling */
+/****************/
+
+.bodyTitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 300%;
+  margin: 5px auto 5px auto;
+  text-align: center;
+  width: 900px;
+}
+
+.bodySubtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 200%;
+  margin: 2px auto 2px auto;
+  text-align: center;
+  width: 900px;
+}
+
+a:link.bodyTitleLink, a:visited.bodyTitleLink {
+  font-family: 'Oswald', sans-serif;
+  font-size: 150%;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  width: 900px;
+  color: #000000;
+}
+
+a:hover.bodyTitleLink {
+  font-family: 'Oswald', sans-serif;
+  font-size: 150%;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  width: 900px;
+  color: #8c8c8c;
+}
+
+.portfolioImage {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.content {
+  text-align: center;
+  overflow: auto;
+  height: 100%;
+  width: 900px;
+  margin: auto auto;
+}
+
+.image1 {
+  float: left;
+  width: 250px;
+  margin: 10px 25px 10px 25px;
+}
+
+.image2 {
+  float: left;
+  width: 550px;
+  margin: 10px 25px 10px 25px;
+}
+
+.image3 {
+  float: left;
+  width: 850px;
+  margin: 10px 25px 10px 25px;
+}
+
+.imagePortfolioMiddle {
+  float: left;
+  width: 640px;
+  margin: 10px 130px 10px 130px;
+}
+
+.imageHalf {
+  float: left;
+  width: 400px;
+  margin: 10px 25px 10px 25px;
+}
+
+.bodyText1 {
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  width: 250px;
+  margin: 10px 25px 10px 25px;
+}
+
+.bodyText2 {
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  width: 550px;
+  margin: 10px 25px 10px 25px;
+}
+
+.bodyText3 {
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  width: 850px;
+  margin: 10px 25px 10px 25px;
+}
+
+.bodyTextHalf {
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  width: 400px;
+  margin: 10px 25px 10px 25px;
+}
+
+.bodyTextCenter {
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 850px;
+  margin: 10px 25px 10px 25px;
+}
+
+a:link.bodyLink, a:visited.bodyLink {
+  color: #000000;
+}
+
+a:hover.bodyLink {
+  color: #8c8c8c;
+}
+
+li.bodyList {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+ul.bodyList {
+  margin: 10px auto 10px auto;
+  text-align: center;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/******************/
+/* Footer Styling */
+/******************/
+
+footer {
+  font-family: 'Open Sans', sans-serif;
+  border-top: solid;
+  padding-top: 20px;
+  margin-top: 50px;
+}
