@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>J. M. Stark | MinSnake</title>
+    <link href="../style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1 class="header">
+        <a class="header" href="../index.html">J. M. Stark</a>
+      </h1>
+    </header>
+    <div class="content">
+      <h1 class="bodyTitle">MinSnake</h1>
+      <h3 class="bodySubtitle">2023</h3>
+      <a href="images/minsnake/source/minsnake_source_1.png"><img class="imagePortfolioMiddle" src="images/minsnake/minsnake_image_1.jpg" alt="MinSnake Prototype Image 1"></a>
+      <p class="bodyText3">
+        I made <em>MinSnake</em> in around a week to explore creating a game from scratch in C++ for the first time and getting back into the habit of creating smaller games. Of course,
+        why not start with something as simple as Snake? This game uses just C++ and SDL2, no external assets are used for images or audio, so it is incredibly minimalist. And
+        while I approached the design with minimalism in mind as well, there is actually a bit of variety in themes and level configurations. My mindset was to create a casual
+        game that you might expect to be packaged in early Windows PCs as an office distraction.
+      </p>
+      <p class="bodyText3">
+        The end result I quite like. Though the early levels in the game might be a bit slow for experienced players, the pace picks up. I intentionally wrote the code for this
+        game without consulting material on design patterns or architecture for games (even though I have read quite a bit on this in the past). The goal was to go in fresh and
+        figure out the basics. Levels are hardcoded arrays in structs and were designed directly in the code editor (only possible because they are single screen and simple).
+        The two functions in the codebase I had the most fun with are render_circle and place_new_fruit. For render_circle I got to do fun geometry math to create circles
+        with SDL2's default triangle rendering. place_new_fruit solved the design problem of fruit needing to be placed randomly, but also in a location that was interesting (not
+        too close to the player).
+      </p>
+      <p class="bodyText3">
+        The source code for MinSnake can be found on GitHub here:
+        <a class="bodyLink" href="https://github.com/JMRante/MinSnake">MinSnake Source Code Repository</a>
+      </p>
+      <iframe frameborder="0" src="https://itch.io/embed/2531598" width="552" height="167">
+        <a href="https://jmstark.itch.io/minsnake">MinSnake by JMStark</a>
+      </iframe>
+      <a href="images/minsnake/source/minsnake_source_2.png"><img class="imageHalf" src="images/minsnake/minsnake_image_2.jpg" alt="MinSnake Prototype Image 2"></a>
+      <a href="images/minsnake/source/minsnake_source_3.png"><img class="imageHalf" src="images/minsnake/minsnake_image_3.jpg" alt="MinSnake Prototype Image 3"></a>
+    </div>
+    <footer>
+      &copy 2024 J. M. Stark, All Rights Reserved
+    </footer>
+  </body>
+</html>
