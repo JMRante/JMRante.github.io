@@ -185,7 +185,8 @@ footer {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 2em;
   margin-top: 2em;
-  min-width: 600px;
+  min-width: 200px;
   padding-top: 2em;
   text-align: center;
+  color: #b3b3b3
 }
